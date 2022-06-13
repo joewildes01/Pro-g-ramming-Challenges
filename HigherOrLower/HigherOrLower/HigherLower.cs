@@ -59,6 +59,7 @@ namespace HigherOrLower
         private void btnReset_Click(object sender, EventArgs e)
         {
             score = 0;
+            txtScore.Text = score.ToString();
 
             currentNum = random.Next(0, 100);
             lockedNum = currentNum;
